@@ -52,7 +52,7 @@
 }
 .profile-details-role h1{
     font-size: 40px;
-    font-family: cursive;
+    font-family: "Poppins SemiBold";
 }
 .primary-text{
     color: #fff;
@@ -85,7 +85,7 @@
     margin: 0 0px 0 100px;
 }
 .profile-picture-background{
-    height: 55vh;
+    height: 52vh;
     width: 92%;
     /* background-color: #131729; */
     background-image: url('../../assets/Home/profilephoto.jpg');
