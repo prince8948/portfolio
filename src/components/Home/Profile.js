@@ -1,6 +1,6 @@
 import React from 'react'
 import "./Profile.css"
-import { NavLink } from "react-router-dom"
+import { Link } from "react-router-dom"
 import Typical from "react-typical"
 export default function Profile() {
     return (
@@ -28,24 +28,24 @@ export default function Profile() {
                         {/* Left links */}
                         <ul className="navbar-nav mb-2 mb-lg-0">
                             <li className="nav-item">
-                                <a className="nav-link Active" aria-current="page" href='#'>
+                                <Link className="nav-link Active" aria-current="page" to='/Profile'>
                                     Home
-                                </a>
+                                </Link>
                             </li>
                             <li className="nav-item">
-                                <NavLink className="nav-link" to="/About/Aboutme">
+                                <Link className="nav-link" to="/Aboutme">
                                     About Me
-                                </NavLink>
+                                </Link>
                             </li>
                             <li className="nav-item">
-                                <NavLink className="nav-link" to='/Resume/Resume'>
+                                <Link className="nav-link" to='/Resume'>
                                     Projects
-                                </NavLink>
+                                </Link>
                             </li>
                             <li className="nav-item">
-                                <NavLink className="nav-link" to="/Contact/Contactme">
+                                <Link className="nav-link" to="/Contact">
                                     Contacts
-                                </NavLink>
+                                </Link>
                             </li>
 
                         </ul>
