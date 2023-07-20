@@ -8,11 +8,14 @@ function App() {
   return (
     <BrowserRouter>
       <Profile />
+      {/* <Aboutme />
+      <Contact /> */}
       <Routes>
         <Route path="/" element={<Navigate to="Profile" />} />
         <Route path="Aboutme" element={<Aboutme />} />
-        <Route path="Resume" element={<Resume />} />
         <Route path="Contact" element={<Contact />} />
+        <Route path="Resume" element={<Resume />} />
+        
       </Routes>
     </BrowserRouter>
 

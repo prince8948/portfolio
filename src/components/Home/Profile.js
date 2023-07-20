@@ -33,7 +33,7 @@ export default function Profile() {
                                 </Link>
                             </li>
                             <li className="nav-item">
-                                <Link className="nav-link" to="/Aboutme">
+                                <Link className="nav-link" to={'/Aboutme'}>
                                     About Me
                                 </Link>
                             </li>
