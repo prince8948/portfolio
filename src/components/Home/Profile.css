@@ -31,10 +31,11 @@
     color: (--white);
 }
 .highlighted-text{
-    color: (--dark-orange);
+    color: rgb(241, 119, 48);
+    font-weight: 900;
 }
 .profile-role-tagline{
-    font-size: 19px;
+    font-size: 20px;
     margin: 5px 0px 0px 0px;
     font-family: "Open Sans', sans-serif";
 }
@@ -136,4 +137,5 @@
         text-align: center;
     }
 } 
+
 
