@@ -1,11 +1,21 @@
-// import logo from './logo.svg';
 import './App.css';
-import Home from './components/Home/Home';
+import Profile from './components/Home/Profile';
+import Aboutme from './components/About/Aboutme';
+import Resume from './components/Resume/Resume';
+import Contact from './components/Contact/Contact';
+import { BrowserRouter, Routes, Route} from 'react-router-dom';
 function App() {
   return (
-    <div className="App">
-      <Home />
-    </div>
+      <BrowserRouter>
+      <Profile />
+        <Routes>
+          <Route path="Profile" element={<Profile />} />
+          <Route path="Aboutme" element={<Aboutme />} />
+          <Route path="Resume" element={<Resume/>} />
+          <Route path ="Contact" element={<Contact/>}/>
+        </Routes>
+      </BrowserRouter>
+
   );
 }
 
